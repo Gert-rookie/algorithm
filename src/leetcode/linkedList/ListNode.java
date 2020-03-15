@@ -1,8 +1,8 @@
-package leetcode.linkedListEx;
+package leetcode.linkedList;
 
 /**
  * @ProjectName: ALGORITHM
- * @Package: interview.leetcode.linkedListEx
+ * @Package: interview.leetcode.linkedList
  * @ClassName: ListNode
  * @Author: Gert
  * @Description: 链表的构建

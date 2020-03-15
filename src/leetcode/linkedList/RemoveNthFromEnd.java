@@ -1,8 +1,8 @@
-package leetcode.linkedListEx;
+package leetcode.linkedList;
 
 /**
  * @ProjectName: ALGORITHM
- * @Package: interview.leetcode.linkedListEx
+ * @Package: interview.leetcode.linkedList
  * @ClassName: RemoveNthFromEnd
  * @Author: Gert
  * @Description: 19. 删除链表的倒数第N个节点

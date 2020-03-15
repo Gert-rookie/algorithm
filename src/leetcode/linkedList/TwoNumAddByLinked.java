@@ -1,8 +1,8 @@
-package leetcode.linkedListEx;
+package leetcode.linkedList;
 
 /**
  * @ProjectName: ALGORITHM
- * @Package: interview.leetcode.linkedListEx
+ * @Package: interview.leetcode.linkedList
  * @ClassName: TwoNumAddByLinked
  * @Author: Gert
  * @Description: 2.两数相加
