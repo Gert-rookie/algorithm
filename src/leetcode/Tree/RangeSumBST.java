@@ -1,7 +1,7 @@
 package leetcode.Tree;
 
 
-import niuke.sword.tree.TreeNode;
+import nowcoder.sword.tree.TreeNode;
 
 /**
  * @Author: Gert

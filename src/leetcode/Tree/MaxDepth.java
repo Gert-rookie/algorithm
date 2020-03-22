@@ -2,8 +2,8 @@ package leetcode.Tree;
 
 
 
-import niuke.sword.tree.RebuildTree;
-import niuke.sword.tree.TreeNode;
+import nowcoder.sword.tree.RebuildTree;
+import nowcoder.sword.tree.TreeNode;
 
 import java.util.LinkedList;
 import java.util.Queue;

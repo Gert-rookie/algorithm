@@ -2,7 +2,7 @@ package leetcode.Tree;
 
 
 
-import niuke.sword.tree.TreeNode;
+import nowcoder.sword.tree.TreeNode;
 
 import java.util.Arrays;
 
