@@ -28,8 +28,6 @@ public class ClimbStairs {
      * 2.  1 阶 + 2 阶
      * 3.  2 阶 + 1 阶
      *
-     * 来源：力扣（LeetCode）
-     * 链接：https://leetcode-cn.com/problems/climbing-stairs
      */
     public static void main(String[] args) {
         ClimbStairs climbStairs=new ClimbStairs();
