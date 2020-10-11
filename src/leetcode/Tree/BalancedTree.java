@@ -2,7 +2,6 @@ package leetcode.Tree;
 
 import nowcoder.sword.tree.TreeNode;
 
-import java.util.Stack;
 
 /**
  * @author Gert

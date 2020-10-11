@@ -39,7 +39,9 @@ public class MaxDepth {
 
     }
 
-    //递归法
+    /**
+     *  递归法
+     */
     public static int maxDepths(TreeNode root) {
         if (root == null) {
             return 0;
@@ -50,7 +52,9 @@ public class MaxDepth {
         return b;
     }
 
-    //层次遍历法
+    /**
+     *   层次遍历法
+     */
     public  static  int maxDepthss(TreeNode root){
         int res=0;
         if(root==null){
