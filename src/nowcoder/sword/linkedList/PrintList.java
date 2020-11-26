@@ -1,6 +1,8 @@
 package nowcoder.sword.linkedList;
 
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Stack;
 
 /**
  * @ProjectName: ALGORITHM
@@ -80,6 +82,28 @@ public class PrintList {
     }
 
 
+    /**
+     * 利用栈进行存储
+     * @param listNode
+     * @return
+     */
+    public static  ArrayList<Integer> printListFromTailToHeadFour(ListNode listNode) {
+        ArrayList<Integer> list=new ArrayList<Integer>();
+        if(listNode==null){
+           return list;
+        }
+        Stack<Integer> stack=new Stack<>();
+        while(listNode!=null){
+            stack.add(listNode.val);
+            listNode=listNode.next;
+        }
+        while(!stack.isEmpty()){
+            list.add(stack.pop());
+        }
+        return list;
+    }
+
+
 
 
 
@@ -93,7 +117,11 @@ public class PrintList {
         listNode2.next=listNode3;
         listNode3.next=listNode4;
         //listNode4.setNext(listNode5);
-        PrintList.printListFromTailToHead(listNode1);
+        //PrintList.printListFromTailToHead(listNode1);
+
+        printListFromTailToHeadFour(listNode1);
+
+
 
     }
 
