@@ -22,16 +22,13 @@ public class Stacks {
     }
 
     public int pop() {
-        while (!stack1.empty()){
-            stack2.push(stack1.pop());
+        if(!stack2.empty()){
+            return stack2.pop();
         }
-        //前面把stack1弹出后需要重新压栈
-        int a=stack2.pop();
-        while (!stack2.empty()){
-            stack1.push(stack2.pop());
+        while(!stack1.empty()){
+            stack2.add(stack1.pop());
         }
-
-      return  a;
+        return   stack2.pop();
     }
 
     public static void main(String[] args) {
