@@ -40,6 +40,9 @@ public class MergeList {
         return head;
     }
 
+    //todo 迭代
+
+
 
 
 }
